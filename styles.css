@@ -1,0 +1,29 @@
+.buttons{
+    width: 630px;
+    height: 630px;
+    background-color: gray;
+    display: grid;
+    grid-template-rows: repeat(4,150px);
+    grid-template-columns: repeat(4,150px);
+    grid-gap: 10px;
+}
+
+
+
+.buttons>div{
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    color: chartreuse;
+    font-size: 100px;
+    text-align: center;
+}
+
+.screen{
+    width: 630px;
+    height: 200px;
+    background-color: bisque;
+    color: blue;
+    text-align: right;
+    font-size: 166px;
+}
